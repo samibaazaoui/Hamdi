@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:21
 
 COPY target/hamdi-0.0.1-SNAPSHOT.jar hamdi-0.0.1-SNAPSHOT.jar
 
