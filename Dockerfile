@@ -1,5 +1,5 @@
-FROM openjdk:21
+FROM eclipse-temurin:21-jdk
 
-COPY target/hamdi-0.0.1-SNAPSHOT.jar hamdi-0.0.1-SNAPSHOT.jar
+COPY com.inn.cafe/target/com.inn.cafe-0.0.1-SNAPSHOT.jar app.jar
 
-ENTRYPOINT ["java","-jar","hamdi-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","/app.jar"]
